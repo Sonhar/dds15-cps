@@ -1,0 +1,29 @@
+
+section.content {
+  width: 700px;
+}
+
+section.footer{
+  width: 700px;
+}
+
+section.details {
+  margin-top: -285px;
+}
+
+section.details hr {
+  height:10px;
+}
+
+section.details h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+section.details a {
+  font-size: 27px;
+}
+
+section.details h2 {
+  font-size: 22px;
+}

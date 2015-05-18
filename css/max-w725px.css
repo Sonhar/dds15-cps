@@ -1,0 +1,56 @@
+section.header {
+  height: 470px;
+}
+
+section.content {
+  width: 400px;
+  font-size: 20px;
+}
+
+section.content h2.warning {
+  font-size: 20px;
+}
+
+section.footer{
+  width: 400px;
+}
+
+section.header img.title {
+  height: 70px;
+}
+
+section.header img.castle {
+  height: 232px;
+  padding-right: 104px;
+}
+
+section.header img.sonhar {
+  height: 80px;
+}
+
+section.header img.dragon {
+  padding-bottom: 0px;
+  height: 90px;
+}
+
+section.details {
+  margin-top: -390px;
+  float: right;
+}
+
+section.details hr {
+  height:10px;
+}
+
+section.details h1 {
+  font-weight: 700;
+  font-size: 27px;
+}
+
+section.details a {
+  font-size: 27px;
+}
+
+section.details h2 {
+  font-size: 22px;
+}
