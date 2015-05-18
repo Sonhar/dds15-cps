@@ -33,10 +33,14 @@ section.content {
   border-style: solid;
   border-color: #a99080;
   border-width: 2px;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   font-size: 24.5px;
   margin-bottom: 30px;
+}
+
+section.content p {
+  text-align: justify;
 }
 
 section.content a {
@@ -58,10 +62,14 @@ section.footer{
   border-style: solid;
   border-color: #a99080;
   border-width: 2px;
-  text-align: justify;
+  text-align: center;
   padding: 10px;
   font-size: 14px;
   margin-bottom: 30px;
+}
+
+section.footer p {
+  text-align: justify;
 }
 
 section.footer .legal {
@@ -179,4 +187,14 @@ section.details h2 {
   margin: 0;
   font-weight: 400;
   font-size: 35px;
+}
+
+a.calltoaction {
+  background-color: #ebd02b;
+  border-style: solid;
+  border-color: #FFFFFF;
+  border-width: 1px;
+  display: inline-block;
+  padding: 20px;
+  margin: auto;
 }
