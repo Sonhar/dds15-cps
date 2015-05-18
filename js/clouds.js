@@ -1,6 +1,6 @@
 $(document).ready(function() {
   var $sky = $(".header");
-  var factor = 8000;
+  var factor = 30000;
   var maxSize = 110;
   var middleSize = 30;
 
@@ -14,26 +14,22 @@ $(document).ready(function() {
         starTop = Math.floor(Math.random() * skyHeight),
         starLeft = Math.floor(Math.random() * skyWidth);
 
-    var glow;
-    if (starSize > 70) {
-      glow = $('<div class="skyglow-big gradient">');
-    } else {
-      glow = $('<div class="skyglow gradient">');
-    }
+    var glow = $('<img src="imgs/cloud.png">');
 
     glow.css({
      width: starSize,
-     height: starSize,
+     height: (Math.random() * starSize/3) + starSize/10,
      top: starTop,
-     left: starLeft
+     left: starLeft,
+     position: "absolute",
    });
 
    glow.prependTo($sky);
 
    glow.plaxify({
-     xRange: starSize,
-     yRange: starSize,
-     invert: false
+     xRange: starSize/5,
+     yRange: starSize/5,
+     invert: true
    })
 
   }
