@@ -74,3 +74,46 @@ footer {
   background: radial-gradient(ellipse at center,  rgba(255,255,255,0.15) 0%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#26ffffff', endColorstr='#00ffffff',GradientType=1 ); /* IE6-8 fallback on horizontal gradient */
 }
+
+section.header img.title {
+  margin: auto;
+  position: absolute;
+  top:0; left: 0; right: 0;
+  width: auto;
+  height: 100px;
+  z-index: 20;
+  padding-top: 10px;
+}
+
+section.header img.castle {
+  margin: auto;
+  position: absolute;
+  left: 0; bottom: 0; right: 0;
+  width: auto;
+  height: 300px;
+  z-index: 10;
+}
+
+section.header img.sonhar {
+  margin: auto;
+  position: absolute;
+  bottom: 0; right: 0;
+  width: auto;
+  height: 100px;
+  z-index: 25;
+  padding: 10px;
+}
+
+section.header img.dragon {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-bottom: 40px;
+  position: absolute;
+  left: 0; bottom: 0; right: 0; top: 0;
+  width: auto;
+  height: 140px;
+  z-index: 9;
+  /*margin-left: auto;
+  margin-right: auto;
+  padding-left: 390px;*/
+}
