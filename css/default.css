@@ -36,6 +36,7 @@ section.content {
   text-align: justify;
   padding: 10px;
   font-size: 24.5px;
+  margin-bottom: 30px;
 }
 
 section.content a {
@@ -50,9 +51,21 @@ section.content h2.warning {
   font-size: 24.5px;
 }
 
-footer {
+section.footer{
+  width: 1000px;
   background-color: #956c4d;
-  float: right;
+  margin: auto;
+  border-style: solid;
+  border-color: #a99080;
+  border-width: 2px;
+  text-align: justify;
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+section.footer .legal {
+  color: #fbf5d2;
 }
 
 .skyglow-big {
