@@ -47,6 +47,7 @@ section.content a {
 section.content h2.warning {
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 24.5px;
 }
 
 footer {
